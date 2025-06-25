@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "types": ["jest"],
+    "strict": true,
+    "jsx": "react-native",
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["src/*"]
+    },
+    "moduleResolution": "nodenext",
+    "module": "NodeNext",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "nativewind-env.d.ts"
+  ],
+  "exclude": ["node_modules"],
+  // "extends": "expo/tsconfig.base"
+}
